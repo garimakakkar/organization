@@ -27,6 +27,13 @@ class UsersController < ApplicationController
 			render 'edit'
 		end
 	end
+
+	def destory
+		@user = User.find(params[:id])
+		@user.destory
+
+		redirect_to users_path 
+	end
 	
 	private 
 
