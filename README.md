@@ -1,6 +1,6 @@
 # Organization Hierarchy 
 
-Organizartion Hierarchy is a project based on Ruby on Rails. The key features of this project are -
+Organization Hierarchy is a project based on Ruby on Rails. The key features of this project are -
 
 * An organization can have multiple users, but a user can strictly belong to one organization. 
 
